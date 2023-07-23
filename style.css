@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+.game-container {
+    display: inline-block;
+    border: 2px solid #d2cccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #7b7979;
+}
+
+.controls {
+    margin: 20px;
+}
+/* Add this style to highlight the winning cells */
+.win-cell {
+    background-color: #ffc107; /* Yellow color, you can customize it */
+  }
+  
